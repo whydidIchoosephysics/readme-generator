@@ -36,9 +36,16 @@ let initialisePrompt = function () {
       },
     ])
     .then((answers) => generateREADME(answers))
+    .then(() => console.log("Successfully wrote to index.html"))
     .catch((error) => console.error(error));
 };
 
+// Function to go in the .then part to add answers to the README file
 let generateREADME = function (answers) {
   console.log(`Hello, ${answers.title}!`);
+  fs.writeFile("file.md", `${answers.title}`, (error) =>
+    error ? console.log(error) : console.log("Success!")
+  );
 };
+
+initialisePrompt();
