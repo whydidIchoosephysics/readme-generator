@@ -1,11 +1,14 @@
 function genReadme(answers) {
-  return `## ${answers.title}
+  return `# ${answers.title}
+
+## Table of Contents:
+[Descriptiom](https://github.com/whydidIchoosephysics/readme-generator#Description)
   
-      # Description:
-      -  ${answers.description}
+## Description:
+${answers.description}
   
-      # Installation:
-      -  ${answers.installation}
+## Installation:
+${answers.installation}
     `;
 }
 

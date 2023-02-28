@@ -32,8 +32,13 @@ let arrObj = [
   },
   {
     type: "input",
-    message: "Does your project have a License? What is it?",
-    name: "license",
+    message: "What is your GitHub username?",
+    name: "githubUsername",
+  },
+  {
+    type: "input",
+    message: "What is your emai address?",
+    name: "email",
   },
 ];
 //);
@@ -48,14 +53,13 @@ let arrObj = [
 
 async function x() {
   let res = await inquirer.prompt(arrObj);
-  console.log(res);
   generateREADME(res);
 }
 
 // Function to go in the .then part to add answers to the README file
 let generateREADME = function (answers) {
   console.log("Hello: ", answers);
-  fs.writeFile("createdREADME.md", genReadme(answers), (error) =>
+  fs.writeFile("exampleREADME.md", genReadme(answers), (error) =>
     error ? console.log(error) : console.log("File created!")
   );
 };
