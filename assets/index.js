@@ -72,7 +72,7 @@ let generateREADME = function (answers) {
     default:
       break;
   }
-  fs.writeFile("exampleREADME.md", genReadme(answers, license), (error) =>
+  fs.writeFile("generatedREADME.md", genReadme(answers, license), (error) =>
     error ? console.log(error) : console.log("File created!")
   );
 };
