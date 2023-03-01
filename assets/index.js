@@ -26,9 +26,10 @@ let arrObj = [
     name: "usage",
   },
   {
-    type: "input",
+    type: "list",
     message: "Does your project have a License? What is it?",
     name: "license",
+    choices: ["None", "MIT", "Mozilla"],
   },
   {
     type: "input",
@@ -58,8 +59,20 @@ async function x() {
 
 // Function to go in the .then part to add answers to the README file
 let generateREADME = function (answers) {
-  console.log("Hello: ", answers);
-  fs.writeFile("exampleREADME.md", genReadme(answers), (error) =>
+  let license;
+  switch (answers.license) {
+    case "MIT":
+      license =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+    case "Mozilla":
+      license =
+        "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+      break;
+    default:
+      break;
+  }
+  fs.writeFile("exampleREADME.md", genReadme(answers, license), (error) =>
     error ? console.log(error) : console.log("File created!")
   );
 };

@@ -1,7 +1,10 @@
-# My Project
+# qqwq
+
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description:
-This is where a description of the app goes<br>
+wew<br>
+
 
 ## Table of Contents:
 
@@ -13,17 +16,19 @@ This is where a description of the app goes<br>
 
   
 ## Installation:
-First you initialize by running node in the terminal. Then blah blah blah<br>
+dwd<br>
 
 ## Usage:
-It generates an MD file based on user input taken by the Inquirer package<br>
+wdw<br>
 
 ## License:
-none<br>
+Mozilla<br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions:
 
 For any questions find me on:
-- Github: [**@whydidIchoosephysics**](https://github.com/whydidIchoosephysics)<br>
-- Email: **ionelvlad123@gmail.com**<br>
+- Github: [**@wdad**](https://github.com/wdad)<br>
+- Email: **awd**<br>
     

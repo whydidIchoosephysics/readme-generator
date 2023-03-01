@@ -1,8 +1,11 @@
-function genReadme(answers) {
+function genReadme(answers, license) {
   return `# ${answers.title}
+
+${license}
 
 ## Description:
 ${answers.description}<br>
+
 
 ## Table of Contents:
 
@@ -21,6 +24,7 @@ ${answers.usage}<br>
 
 ## License:
 ${answers.license}<br>
+
 
 ## Questions:
 
