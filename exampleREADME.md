@@ -1,9 +1,9 @@
-# qqwq
+# Example Title for Project
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
-wew<br>
+This is where a short description of what my application is doing should go. The Table of Contents below can be checked to see that it takes you to the correct section.<br>
 
 
 ## Table of Contents:
@@ -16,19 +16,18 @@ wew<br>
 
   
 ## Installation:
-dwd<br>
+First step is to make sure Node is installed with all the required packages.<br>
 
 ## Usage:
-wdw<br>
+A file is created based on the input given by the user.<br>
 
 ## License:
-Mozilla<br>
+MIT<br>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions:
 
 For any questions find me on:
-- Github: [**@wdad**](https://github.com/wdad)<br>
-- Email: **awd**<br>
+- Github: [**@whydidIchoosephysics**](https://github.com/whydidIchoosephysics)<br>
+- Email: **ionelvlad123@gmail.com**<br>
     

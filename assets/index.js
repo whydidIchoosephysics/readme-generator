@@ -59,7 +59,7 @@ async function x() {
 
 // Function to go in the .then part to add answers to the README file
 let generateREADME = function (answers) {
-  let license;
+  let license = "";
   switch (answers.license) {
     case "MIT":
       license =
