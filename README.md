@@ -8,6 +8,8 @@ The app creates a `generatedREADME.md` file, and fills in the sections based on 
 
 An `arrObj` object is created as an array containing all the Inquirer Prompts. An asynchronous function `x()` runs only once all the promts have been answered by the user. The answers are then provided to a Generator function - for the License option, a Switch Statement is used before the value is passed, so the link to the correct badge is linked to it. The generator function calls a function that returns the prototype from which the README file is being created, with the give answers in it.
 
+An `exampleREADME` file is provided, that was created using this script.
+
 
 [**Video Demo**](https://drive.google.com/file/d/17HAMkaHpc1YM4lG3RBAn2tKEkcR5B8If/view?usp=sharing)
 
