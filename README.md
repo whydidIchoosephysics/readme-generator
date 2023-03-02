@@ -7,6 +7,10 @@
 The app creates a README file, and fills in the sections based on the input given by the user in the terminal with the use of Node.js and the Inquirer package.<br>
 
 
+
+https://user-images.githubusercontent.com/93586814/222556373-733bc248-3607-440e-97ff-59baae45cc72.mp4
+
+
 [**Video Demo**](https://drive.google.com/file/d/17HAMkaHpc1YM4lG3RBAn2tKEkcR5B8If/view?usp=sharing)
 
 ## Table of Contents:
