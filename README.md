@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/93586814/222556373-733bc248-3607-440e-
 
 **[Installation](#Installation)**<br>
 **[Usage](#Usage)**<br>
-**[License](#Description)**<br>
+**[License](#License)**<br>
 **[Questions](#Questions)**<br>
   
 ## Installation:

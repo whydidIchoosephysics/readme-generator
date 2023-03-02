@@ -11,7 +11,7 @@ ${answers.description}<br>
 
 **[Installation](#Installation)**<br>
 **[Usage](#Usage)**<br>
-**[License](#Description)**<br>
+**[License](#License)**<br>
 **[Questions](#Questions)**<br>
   
 

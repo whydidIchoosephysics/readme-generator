@@ -10,7 +10,7 @@ This is where a short description of what my application is doing should go. The
 
 **[Installation](#Installation)**<br>
 **[Usage](#Usage)**<br>
-**[License](#Description)**<br>
+**[License](#License)**<br>
 **[Questions](#Questions)**<br>
   
 
